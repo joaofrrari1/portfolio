@@ -1,0 +1,33 @@
+# Definindo as taxas de câmbio para cada par de moedas
+taxas = {
+    ('USD', 'BRL'): 5.3,
+    ('EUR', 'BRL'): 6.3,
+    ('JPY', 'BRL'): 0.048,
+    # adicione mais taxas de câmbio conforme necessário
+}
+
+# Função para ler o valor da moeda selecionada pelo usuário
+def ler_valor_moeda(moeda):
+    valor = float(input(f"Digite o valor em {moeda}: "))
+    return valor
+
+# Função para converter o valor da moeda selecionada para a moeda desejada
+def converter_valor(valor, moeda_origem, moeda_destino):
+    taxa = taxas[(moeda_origem, moeda_destino)]
+    valor_convertido = valor * taxa
+    return valor_convertido
+
+# Função para exibir o resultado da conversão na tela
+def exibir_resultado(valor, moeda_origem, moeda_destino, valor_convertido):
+    print(f"{valor} {moeda_origem} equivale a {valor_convertido} {moeda_destino}")
+
+# Lista de moedas suportadas
+moedas = ['USD', 'EUR', 'JPY'] # adicione mais moedas conforme necessário
+
+# Loop para realizar as conversões de moeda
+for moeda_origem in moedas:
+    for moeda_destino in moedas:
+        if moeda_origem != moeda_destino:
+            valor = ler_valor_moeda(moeda_origem)
+            valor_convertido = converter_valor(valor, moeda_origem, moeda_destino)
+            exibir_resultado(valor, moeda_origem, moeda_destino, valor_convertido)
