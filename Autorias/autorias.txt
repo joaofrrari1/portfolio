@@ -1,0 +1,8 @@
+CREATE TABLE Carros (
+    ID INT PRIMARY KEY,
+    Marca VARCHAR(50),
+    Modelo VARCHAR(50),
+    Ano INT,
+    Cor VARCHAR(20),
+    Preco DECIMAL(10, 2)
+);
