@@ -1,0 +1,15 @@
+História O Athlon foi lançado no dia 23 de Junho de 1999. O nome Athlon foi escolhido pela AMD como um encurtamento para decathlon. No caso, Decathlon é um jogo de computador criado pela Activision em 83 para o Atari e não uma loja de artigos esportivos. Voltando a falar 
+sobre o processador, o núcleo original do Athlon, codinome K7, pra quem não sabe o símbolo “K” é utilizado como sistema de medida de geração, por exemplo um processador K8 seria de oitava geração, mas voltando, o núcleo original dele foi disponibilizado nas frequência de 500 até 700 MHz em seu lançamento e foi vendido mais tarde em frequências de até 1000 MHz (K75). O processador é compatível com as instruções padrão de mercado x86 e conectado à placa-mãe através de um conector denominado (Slot A) similar mecanicamente (porém não compatível) com o Slot 1 do Pentium II. 
+Os processadores da linha Athlon são Clássico, XPMP, Thunderbird, XP Palomino, Thoroughbred A e B, XP Barton e XP Thornton. 
+Arquitetura 
+Athlon é uma série de processadores da plataforma x86 criados pela Advanced Micro Devices (AMD). O processador Athlon original (ou clássico) foi o primeiro processador x86 de sétima geração. A AMD continuou utilizando o nome Athlon nos processadores Athlon 64, processadores de oitava geração(K8) que possuem a tecnologia AMD64, nos processadores de nona geração(K9) - dual core, Athlon X2, e usará em seus produtos de entrada de linha na décima geração(K10). 
+O Athlon 3000g tem 2 núcleos 4 threads com um clock básico de 3.5ghz Ele tem uma Radeon Vega 3 Graphics integrada, com 3 núcleos de GPU e uma frequência gráfica de 1100mhz 
+Exemplos 
+O Athlon 3000G é um processador de entrada da AMD com recursos que o tornam boa opção para quem procura um PC mais barato para jogos e para quem procura um PC para escritório(trabalho). O Athlon 3000G é um processador barato com um custo benefício. 
+Já o AMD Athlon™ Gold 7220C é um processador mais completo, com ótimo desempenho em jogos, edição, programação, e para quem procura um bom desempenho em seu PC. 
+Diferença Athlon 3000G Versus. Pentium Gold G5400 
+Em comparação com RAM, com 128Gb até 2667MHz e 64Gb até 2400MHz Em questão de resfriamento, o processador Intel Pentium aguenta até 100ºC já o AMD 95ºC O Grafico integrado da AMD possui um clock 750MHz mais rapido, com um total de 1100MHz a 350MHz 
+Ele possui um multiplicador desbloqueado. 
+Cache L2 0.5MB maior e Cache L1 64KB maior 
+Intel com 16.68% pontos a mais no PassMark
+
