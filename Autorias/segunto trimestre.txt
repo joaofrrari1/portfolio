@@ -1,0 +1,43 @@
+import random
+import time
+
+class Car:
+    def __init__(self, name):
+        self.name = name
+        self.distance = 0
+
+    def move(self):
+        distance_covered = random.randint(1, 10)
+        self.distance += distance_covered
+
+    def display_progress(self):
+        print(f"{self.name} percorreu {self.distance} unidades.")
+
+def main():
+    num_cars = int(input("Quantos carros participarão da corrida? "))
+    cars = []
+
+    for i in range(1, num_cars + 1):
+        car_name = input(f"Nome do carro {i}: ")
+        car = Car(car_name)
+        cars.append(car)
+
+    print("\nComeçando a corrida!\n")
+
+    while True:
+        for car in cars:
+            car.move()
+            car.display_progress()
+
+        time.sleep(1)  # Pausa de 1 segundo entre iterações para visualização
+
+        # Verifica se algum carro já percorreu uma distância suficiente para vencer
+        winner = max(cars, key=lambda car: car.distance)
+        if winner.distance >= 100:
+            print(f"\n{winner.name} venceu a corrida!")
+            break
+
+    print("\nFim da corrida!")
+
+if __name__ == "__main__":
+    main()
