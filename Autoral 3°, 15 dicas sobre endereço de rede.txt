@@ -1,0 +1,48 @@
+Selecionei 15 dicas para poder estudar para o conteudo.
+
+1. IPv4 e IPv6:
+   - Compreenda a diferença entre IPv4 e IPv6. O IPv4 utiliza endereços com formato como "192.168.1.1", enquanto o IPv6 é mais longo e usa notação hexadecimal.
+
+2. Máscara de Sub-Rede:
+   - A máscara de sub-rede define a quantidade de bits usados para a rede e host. Saiba como usá-la para segmentar eficientemente sua rede.
+
+3. Gateways:
+   - O gateway é o ponto de saída para tráfego fora da rede local. Certifique-se de configurá-lo corretamente para garantir a conectividade.
+
+4. DHCP (Dynamic Host Configuration Protocol):
+   - Use o DHCP para atribuir dinamicamente endereços IP aos dispositivos na rede, simplificando a configuração.
+
+5. Reserva de Endereços:
+   - Reserve faixas específicas de endereços para dispositivos críticos. Isso evita conflitos e facilita a gestão.
+
+6. DNS (Domain Name System):
+   - O DNS converte nomes de domínio em endereços IP. Entenda como configurar servidores DNS para facilitar o acesso a recursos online.
+
+7.Roteadores e Switches:
+   - Roteadores conectam redes diferentes, enquanto switches conectam dispositivos na mesma rede. Compreenda suas funções e configurações.
+
+8. Firewalls:
+   - Use firewalls para controlar o tráfego e proteger sua rede contra ameaças. Configure regras de firewall para permitir ou bloquear tráfego específico.
+
+9. Endereços Estáticos vs. Dinâmicos:
+   - Escolha entre endereços IP estáticos e dinâmicos com base nas necessidades da rede. Endereços estáticos oferecem previsibilidade, enquanto dinâmicos simplificam a administração.
+
+10. Sub-redes:
+    - Divida sua rede em sub-redes para melhorar a eficiência e segurança. Isso permite a segmentação de dispositivos e controle mais granular.
+
+11. VLANs (Virtual Local Area Networks).
+    - Utilize VLANs para criar redes virtuais independentes dentro de uma rede física, proporcionando isolamento e controle de tráfego.
+
+12. NAT (Network Address Translation):
+    - O NAT permite que dispositivos em uma rede privada compartilhem um único endereço IP público. Entenda como configurá-lo para acesso à Internet.
+
+13. IPv6 Transition:
+    - Esteja ciente da transição gradual para o IPv6, pois o número de endereços IPv4 disponíveis é limitado.
+
+14. Segurança Wi-Fi:
+    - Proteja redes Wi-Fi com criptografia, senhas fortes e protocolos de segurança como WPA3 para evitar acessos não autorizados.
+
+15. Monitoramento e Logging:
+    - Implemente ferramentas de monitoramento e logging para acompanhar o tráfego de rede, identificar problemas e garantir a segurança.
+
+

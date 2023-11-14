@@ -1,0 +1,49 @@
+﻿1. 192.168.0.0/30:
+   - Endereço de rede: 192.168.0.0
+   - Endereço de broadcast: 192.168.0.3 (o próximo ao último endereço em uma sub-rede /30)
+   - Dispositivos possíveis: 192.168.0.1 e 192.168.0.2
+
+
+2. 192.168.90.115/30:
+   - Endereço de rede: 192.168.90.112
+   - Endereço de broadcast: 192.168.90.115
+   - Dispositivos possíveis: 192.168.90.113 e 192.168.90.114
+
+
+3. 192.168.10.127/25:
+   - Este é um prefixo /25, o que significa que os primeiros 25 bits são para a rede.
+   - Endereço de rede: 192.168.10.0
+   - Endereço de broadcast: 192.168.10.127
+   - Dispositivos possíveis: 192.168.10.1 a 192.168.10.126
+
+
+4. 192.168.15.128/23:
+   - Este é um prefixo /23, o que significa que os primeiros 23 bits são para a rede.
+   - Endereço de rede: 192.168.15.0
+   - Endereço de broadcast: 192.168.15.255
+   - Dispositivos possíveis: 192.168.15.1 a 192.168.15.254
+
+
+5. 192.168.53.144/28:
+   - Endereço de rede: 192.168.53.144
+   - Endereço de broadcast: 192.168.53.159
+   - Dispositivos possíveis: 192.168.53.145 a 192.168.53.158
+
+
+6. 192.168.24.101/29:
+   - Endereço de rede: 192.168.24.96
+   - Endereço de broadcast: 192.168.24.103
+   - Dispositivos possíveis: 192.168.24.97 a 192.168.24.102
+
+
+7. 192.168.63.255/18:
+   - Este é um prefixo /18, o que significa que os primeiros 18 bits são para a rede.
+   - Endereço de rede: 192.168.0.0
+   - Endereço de broadcast: 192.168.63.255
+   - Dispositivos possíveis: 192.168.0.1 a 192.168.63.254
+
+
+8. 192.168.255.23/26:
+   - Endereço de rede: 192.168.255.0
+   - Endereço de broadcast: 192.168.255.63
+   - Dispositivos possíveis: 192.168.255.1 a 192.168.255.62
